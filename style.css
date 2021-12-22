@@ -1,0 +1,30 @@
+.card-img-top {
+  position: relative;
+  border-radius: 300px;
+  padding: 50px;
+}
+
+.fotoperfil {
+  border-radius: 1000px;
+  width: 20%;
+  position: absolute;
+  align-self: baseline;
+  bottom: 200px;
+  padding: 20px;
+}
+
+.card1 {
+  border-color: white;
+  border: 0px;
+}
+
+.card2 {
+  padding: 15px;
+}
+
+.button {
+  border-color: blue;
+  color: blue;
+  --bs-success: blue;
+  --bs-green: blue;
+}
