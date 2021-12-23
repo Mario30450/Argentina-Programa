@@ -31,6 +31,7 @@
       integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
       crossorigin="anonymous"
     />
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="style.css" />
     <script src="main.js"></script>
     <script src="https://kit.fontawesome.com/f67b6eca4a.js" crossorigin="anonymous"></script>
@@ -87,21 +88,48 @@
           <form class="d-flex">
             <ul class="nav justify-content-end">
               <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#"
+                <a class="nav-link active" aria-current="page" href="https://www.linkedin.com/in/mario-orostizaga-5a0a4b1a3"
                   ><i class="fab fa-linkedin"></i></a
                 >
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fab fa-instagram-square"></i></a>
+                <a class="nav-link" href="https://www.instagram.com/mar______io"><i class="fab fa-instagram-square"></i></a>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="#"><i class="fab fa-facebook-square"></i></a>
+                <a class="nav-link" href="https://www.facebook.com/blanco.cosmico"><i class="fab fa-facebook-square"></i></a>
               </li>
               <!-- <li class="nav-item">
                 <a class="nav-link disabled">Disabled</a>
               </li> -->
             </ul>
-            <button class="btn btn-outline-success button" type="submit">Login</button>
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal" data-bs-whatever="@mdo">Login</button>
+
+<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h5 class="modal-title" id="exampleModalLabel">Login</h5>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <form>
+          <div class="mb-3">
+            <label for="recipient-name" class="col-form-label">User:</label>
+            <input type="text" class="form-control" id="recipient-name">
+          </div>
+          <div class="mb-3">
+            <label for="message-text" class="col-form-label">Pasword:</label>
+            <textarea class="form-control" id="message-text"></textarea>
+          </div>
+        </form>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Send</button>
+      </div>
+    </div>
+  </div>
+</div>
           </form>
         </div>
       </div>
@@ -119,12 +147,11 @@
       <div class="card-body card1">
         
         <h5 class="card-title">Mario Orostizaga</h5>
-        <p class="card-text">
-          This is a wider card with supporting text below as a natural lead-in
-          to additional content. This content is a little bit longer.
+        <p class="card-text card2">
+          Full Stack Developer Jr
         </p>
         <p class="card-text">
-          <small class="text-muted">Last updated 3 mins ago</small>
+          <small class="text-muted"></small>
         </p>
       </div>
     </div>
@@ -133,7 +160,7 @@
        de tu identidad.  -->
 
     <div class="card text-center">
-      <div class="card-header">
+      <div class="card-header card1">
         <ul class="nav nav-tabs card-header-tabs">
           <li class="nav-item">
             <a class="nav-link active" aria-current="true" href="#"
@@ -145,10 +172,14 @@
       <div class="card card1">
         <div class="card-body">
           <blockquote class="blockquote mb-0 ">
-            <p>A well-known quote, contained in a blockquote element.</p>
+            <p>Soy profe de Letras egresado de la UNMdP. Trabajo en colegios secundarios hace mas de diez años. Actualmente me desempeño en el cargo de profesor de Psicolingüística en un ISFDYT y curso un posgrado en Enseñanza de Español como segunda lengua en la UNLP. A la vez estoy cambiando mi vida y mi profesión al ambito It.</p>
             <footer class="blockquote-footer">
-              Someone famous in <cite title="Source Title">Source Title</cite>
+              <br>
+              <br>
+              El gran motor del cambio es la tecnología <cite title="Source Title">Alvin Toffler</cite>
+              
             </footer>
+            
           </blockquote>
         </div>
       </div>
@@ -157,7 +188,7 @@
 Jr). Aquí debés poner tu información profesional resumida.-->
 
       <div class="card text-center">
-        <div class="card-header">
+        <div class="card-header card1">
           <ul class="nav nav-tabs card-header-tabs">
             <li class="nav-item">
               <a class="nav-link active" aria-current="true" href="#"
@@ -166,7 +197,7 @@ Jr). Aquí debés poner tu información profesional resumida.-->
             </li>
           </ul>
         </div>
-        <div class="card-body">
+        <div class="card-body card1">
           <h5 class="card-title">Special title treatment</h5>
           <p class="card-text">
             With supporting text below as a natural lead-in to additional
@@ -196,16 +227,16 @@ Jr). Aquí debés poner tu información profesional resumida.-->
 periodo, logo de la empresa, si lo encontrás, y descripción de las actividades realizadas en ese puesto.
 -->
       <div class="card text-center">
-        <div class="card-header">
+        <div class="card-header card1">
           <ul class="nav nav-tabs card-header-tabs">
             <li class="nav-item">
-              <a class="nav-link active" aria-current="true" href="#"
+              <a class="nav-link active card1" aria-current="true" href="#"
                 >Educación</a
               >
             </li>
           </ul>
         </div>
-        <div class="card-body">
+        <div class="card-body card1">
           <h5 class="card-title">Special title treatment</h5>
           <p class="card-text">
             With supporting text below as a natural lead-in to additional
@@ -327,7 +358,7 @@ de dominio dehabilidades duras y blandas. Podéstambién generar una sección ad
 de idiomas.
 -->
       <div class="card text-center">
-        <div class="card-header">
+        <div class="card-header card1 card2">
           <ul class="nav nav-tabs card-header-tabs">
             <li class="nav-item">
               <a class="nav-link active" aria-current="true" href="#"
