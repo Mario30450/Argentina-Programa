@@ -14,3 +14,18 @@ exampleModal.addEventListener("show.bs.modal", function (event) {
   modalTitle.textContent = "New message to " + recipient;
   modalBodyInput.value = recipient;
 });
+
+var botonContratame = document.getElementById("botonContratame");
+
+function botonContratame() {
+  //Ingresamos un mensaje
+  var mensaje = confirm("Contratame");
+  //Verificamos si el usuario acepto el mensaje
+  if (mensaje) {
+    alert("¡Gracias por confirmar!");
+  }
+  //Verificamos si el usuario denegó el mensaje
+  else {
+    alert("¡Piensalo, tienes tiempo!");
+  }
+}
