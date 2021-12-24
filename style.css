@@ -8,9 +8,10 @@
   border-radius: 1000px;
   width: 20%;
   position: absolute;
-  align-self: baseline;
-  bottom: 200px;
-  padding: 20px;
+  align-self: center;
+  bottom: 510px;
+
+  padding: 40px;
 }
 
 .card1 {
@@ -20,6 +21,16 @@
 
 .card2 {
   padding: 15px;
+}
+
+.cardname {
+  font-weight: bolder;
+  font-size: 30px;
+}
+
+.cardname2 {
+  font-weight: bold;
+  font-size: 20px;
 }
 
 .button {
