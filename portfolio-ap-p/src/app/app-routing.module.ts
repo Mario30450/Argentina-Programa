@@ -1,7 +1,12 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { EditPageComponent } from 'edit-page/edit-page.component';
 
-const routes: Routes = [];
+const routes: Routes = [
+  { path: 'edit-page', component: EditPageComponent }
+];
+
+
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
