@@ -11,6 +11,7 @@ import { EducationComponent } from './components/education/education.component';
 import { HardsoftskillsComponent } from './components/hardsoftskills/hardsoftskills.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { EditPageComponent } from './edit-page/edit-page.component';
+import { HomePageComponent } from './home-page/home-page.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { EditPageComponent } from './edit-page/edit-page.component';
     EducationComponent,
     HardsoftskillsComponent,
     ProjectsComponent,
-    EditPageComponent
+    EditPageComponent,
+    HomePageComponent
   ],
   imports: [
     BrowserModule,
