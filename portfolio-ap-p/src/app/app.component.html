@@ -1,11 +1,15 @@
 <body class="body">
-  <app-header></app-header>
-  <app-profile></app-profile>
-  <app-about></app-about>
-  <app-experience></app-experience>
-  <app-education></app-education>
-  <app-hardsoftskills></app-hardsoftskills>
-  <app-projects></app-projects>
+  <div *ngIf="pageOne; else pageTwo">
+    <app-header></app-header>
+    <app-profile></app-profile>
+    <app-about></app-about>
+    <app-experience></app-experience>
+    <app-education></app-education>
+    <app-hardsoftskills></app-hardsoftskills>
+    <app-projects></app-projects>
+  </div>
+
+  <ng-template #pageTwo><app-edit-page></app-edit-page> </ng-template>
 </body>
 
 <router-outlet></router-outlet>
