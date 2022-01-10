@@ -12,6 +12,7 @@ import { HardsoftskillsComponent } from './components/hardsoftskills/hardsoftski
 import { ProjectsComponent } from './components/projects/projects.component';
 import { EditPageComponent } from './edit-page/edit-page.component';
 import { HomePageComponent } from './home-page/home-page.component';
+import { LoginPageComponent } from './login-page/login-page.component';
 
 @NgModule({
   declarations: [
@@ -24,7 +25,8 @@ import { HomePageComponent } from './home-page/home-page.component';
     HardsoftskillsComponent,
     ProjectsComponent,
     EditPageComponent,
-    HomePageComponent
+    HomePageComponent,
+    LoginPageComponent
   ],
   imports: [
     BrowserModule,
