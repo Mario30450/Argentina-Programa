@@ -1,3 +1,4 @@
+import { variable } from '@angular/compiler/src/output/output_ast';
 import { Component, OnInit } from '@angular/core';
 
 @Component({
@@ -13,6 +14,10 @@ export class ExperienceComponent implements OnInit {
   }
 
   ngOnInit(): void {
+    
   }
+
+
+
 
 }

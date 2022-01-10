@@ -3,7 +3,7 @@
     <div class="container-fluid">
       <a class="navbar-brand" href="https://argentinaprograma.inti.gob.ar/">
         <img
-          src="logoarprog.jpeg"
+          src="..\assets\images\logoarprog.jpeg"
           alt=""
           width="30"
           height="24"
@@ -69,64 +69,10 @@
             data-bs-toggle="modal"
             data-bs-target="#exampleModal"
             data-bs-whatever="@mdo"
+            routerLink="/"
           >
-            Login
+            Logout
           </button>
-
-          <div
-            class="modal fade"
-            id="exampleModal"
-            tabindex="-1"
-            aria-labelledby="exampleModalLabel"
-            aria-hidden="true"
-          >
-            <div class="modal-dialog">
-              <div class="modal-content">
-                <div class="modal-header">
-                  <h5 class="modal-title" id="exampleModalLabel">Login</h5>
-                  <button
-                    type="button"
-                    class="btn-close"
-                    data-bs-dismiss="modal"
-                    aria-label="Close"
-                  ></button>
-                </div>
-                <div class="modal-body">
-                  <form>
-                    <div class="mb-3">
-                      <label for="recipient-name" class="col-form-label"
-                        >User:</label
-                      >
-                      <input
-                        type="text"
-                        class="form-control"
-                        id="recipient-name"
-                      />
-                    </div>
-                    <div class="mb-3">
-                      <label for="message-text" class="col-form-label"
-                        >Pasword:</label
-                      >
-                      <textarea
-                        class="form-control"
-                        id="message-text"
-                      ></textarea>
-                    </div>
-                  </form>
-                </div>
-                <div class="modal-footer">
-                  <button
-                    type="button"
-                    class="btn btn-secondary"
-                    data-bs-dismiss="modal"
-                  >
-                    Close
-                  </button>
-                  <button type="button" class="btn btn-primary">Send</button>
-                </div>
-              </div>
-            </div>
-          </div>
         </form>
       </div>
     </div>
@@ -139,8 +85,16 @@
   <div class="card mb-3 card0">
     <div class="">
       <div class="cards">
-        <img src="banner.jpg" class="card-img-top banner" alt="..." />
-        <img src="fotoperfil.jpeg" class="fotoperfil" alt="..." />
+        <img
+          src="..\assets\images\banner.jpg"
+          class="card-img-top banner"
+          alt="..."
+        />
+        <img
+          src="..\assets\images\fotoperfil.jpeg"
+          class="fotoperfil"
+          alt="..."
+        />
       </div>
     </div>
 
@@ -201,7 +155,7 @@ Jr). Aquí debés poner tu información profesional resumida.-->
       <br />
       <h5 class="card-title">
         Como desarrollador
-        <img src="desarrollador.webp" class="card-img-top a" />
+        <img src="..\assets\images\desarrollador.webp" class="card-img-top a" />
       </h5>
       <p class="card-text"></p>
       <div class="alert alert-primary d-flex align-items-center" role="alert">
@@ -238,7 +192,8 @@ Jr). Aquí debés poner tu información profesional resumida.-->
     <hr />
     <div class="card-body">
       <h5 class="card-title">
-        Como profesor <img src="profesor.png" class="card-img-top a" />
+        Como profesor
+        <img src="..\assets\images\profesor.png" class="card-img-top a" />
       </h5>
       <p class="card-text"></p>
       <p>
@@ -392,7 +347,11 @@ institución, el logo (de ser posible), nombre, carrera o título estudiado, y e
       <div class="row row-cols-1 row-cols-md-2 g-4 card2">
         <div class="col">
           <div class="card h-100">
-            <img src="30%.jpg" class="card-img-top imgporc" alt="..." />
+            <img
+              src="..\assets\images\30.jpg"
+              class="card-img-top imgporc"
+              alt="..."
+            />
             <div class="card-body">
               <h5 class="card-title">Html</h5>
               <p class="card-text"></p>
@@ -401,7 +360,11 @@ institución, el logo (de ser posible), nombre, carrera o título estudiado, y e
         </div>
         <div class="col">
           <div class="card h-100">
-            <img src="30%.jpg" class="card-img-top imgporc" alt="..." />
+            <img
+              src="..\assets\images\30.jpg"
+              class="card-img-top imgporc"
+              alt="..."
+            />
             <div class="card-body">
               <h5 class="card-title">CSS</h5>
               <p class="card-text"></p>
@@ -410,7 +373,11 @@ institución, el logo (de ser posible), nombre, carrera o título estudiado, y e
         </div>
         <div class="col">
           <div class="card h-100">
-            <img src="20%.jpg" class="card-img-top imgporc" alt="..." />
+            <img
+              src="..\assets\images\20.jpg"
+              class="card-img-top imgporc"
+              alt="..."
+            />
             <div class="card-body">
               <h5 class="card-title">JavaScript</h5>
               <p class="card-text"></p>
@@ -419,7 +386,11 @@ institución, el logo (de ser posible), nombre, carrera o título estudiado, y e
         </div>
         <div class="col">
           <div class="card h-100">
-            <img src="10%.jpg" class="card-img-top imgporc" alt="..." />
+            <img
+              src="..\assets\images\10.jpg"
+              class="card-img-top imgporc"
+              alt="..."
+            />
             <div class="card-body">
               <h5 class="card-title">Base de datos y Github</h5>
               <p class="card-text"></p>
@@ -477,7 +448,7 @@ de idiomas.
             data-bs-interval="10000"
           >
             <img
-              src="Proyectos SummerHack.png"
+              src="..\assets\images\Proyectos SummerHack.png"
               class="d-block w-100 imgcarrusel"
               alt="..."
             />
@@ -490,7 +461,11 @@ de idiomas.
             </div>
           </div>
           <div class="carousel-item" data-bs-interval="2000">
-            <img src="Proyectos en React.png" class="d-block w-100" alt="..." />
+            <img
+              src="..\assets\images\Proyectos en React.png"
+              class="d-block w-100"
+              alt="..."
+            />
             <div class="carousel-caption d-none d-md-block">
               <h5>Proyectos en React</h5>
               <p>
@@ -501,7 +476,7 @@ de idiomas.
           </div>
           <div class="carousel-item imgcarrusel">
             <img
-              src="Portfolio Argentina programa.png"
+              src="..\assets\images\Portfolio Argentina programa.png"
               class="d-block w-100"
               alt="..."
             />
