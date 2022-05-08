@@ -1,0 +1,22 @@
+Id_Educacion, Fecha, Institucion, Carrera, Perfil_Id_Perfil
+
+Id_Experiencia, Fechas, Descripcion, Puesto, Perfil_Id_Perfil
+
+Id_HardySoft_skills, Nombre, Curso, Descripcion, Perfil_Id_Perfil
+
+id_Perfil, nombre, apellido, username, password, puesto, url_foto_perfil, url_banner, descripcion, cita
+
+Id_Proyectos, Fecha, Nombre, Descripcion, Url_foto, Perfil_Id_Perfil
+
+
+
+sprinboot y crud
+
+https://www.youtube.com/watch?v=_PAKhKSunek&list=PL4bT56Uw3S4wVtzeBMo5z0e9DI_LL04uy
+
+https://youtu.be/Gx4iBLKLVHk
+
+
+master grabada
+
+https://www.awesomescreenshot.com/video/7847921?key=a3058e59772abbadbd3c15a8dc14334b

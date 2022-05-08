@@ -1,0 +1,23 @@
+insert into `Perfil`
+value ('Linkedin','linkedin.com/in/mario-orostizaga-5a0a4b1a3/', 'null', 'null','4' )
+
+
+Alter table 'redes sociales'
+add column id int NOT NULL auto_increment UNIQUE Key;
+
+
+insert into `Perfil` (Id_Perfil, Nombre, Apellido, Username, Password, Puesto, Url_foto_perfil, Url_banner, Descripcion, Cita)
+value ('null','Mario', 'Orostizaga', 'Mar', 'MarAP', 'Full Stack Developer', 'null', 'null', 'Soy yo', 'Se vos');
+
+
+(Id_Perfil, Nombre, Apellido, Username, Password, Puesto, Url_foto_perfil, Url_banner, Descripcion, Cita) 
+
+Nombre, Url perfil, Id_Redes_Sociales
+
+Fechas, Descripcion, Puesto, Id_Experiencia
+
+Nombre, Curso, Descripcion, Id_HardySoft_skills
+
+Fecha, Institución, Carrera, Id_Educacion
+
+Fecha, Nombre, Descripción, Url foto, Id_Proyectos
