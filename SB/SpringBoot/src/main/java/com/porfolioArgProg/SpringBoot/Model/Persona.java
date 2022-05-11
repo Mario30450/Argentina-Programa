@@ -23,7 +23,7 @@ public class Persona {
     public Persona() {
     }
     
-    Public Persona (long id_Perfil, String nombre, String apellido, String username, String password,
+    public Persona (long id_Perfil, String nombre, String apellido, String username, String password,
     String puesto, String url_foto_perfil, String url_banner, String descripcion, String cita){
     this.id_Perfil = id_Perfil;
     this.nombre = nombre;
@@ -34,10 +34,8 @@ public class Persona {
     this.cita = cita;
     this.url_banner = url_banner;
     this.url_foto_perfil = url_foto_perfil;
-        return null;
     }
     }
+        
     
-    
-    
-}
+
