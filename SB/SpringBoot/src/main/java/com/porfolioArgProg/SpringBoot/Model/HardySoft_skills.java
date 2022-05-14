@@ -7,6 +7,9 @@ import lombok.Setter;
 
 
 @Getter @Setter
+@Entity
+@id
+@TableColumn
 public class HardySoft_skills {
     
      private long Id_HardySoft_skills;
