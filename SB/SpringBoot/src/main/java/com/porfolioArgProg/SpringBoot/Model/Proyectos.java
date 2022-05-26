@@ -2,6 +2,7 @@
 package com.porfolioArgProg.SpringBoot.Model;
 
 
+import java.io.Serializable;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -10,10 +11,10 @@ import javax.persistence.*;
 @Getter @Setter
 @Entity
 
-public class Proyectos {
+public class Proyectos implements Serializable {
     
-    @id
-@TableColumn
+ @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private long Id_Proyectos;
     private String nombre; 
      private String Fechas; 

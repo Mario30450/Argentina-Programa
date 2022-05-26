@@ -1,7 +1,7 @@
 
 package com.porfolioArgProg.SpringBoot.Repository;
 
-import Repository.*;
+import org.springframework.data.repository.Repository.*;
 
 
 

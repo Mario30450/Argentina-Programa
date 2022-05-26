@@ -4,6 +4,7 @@ package com.porfolioArgProg.SpringBoot.Model;
 
 
 
+import java.io.Serializable;
 import lombok.Getter;
 import lombok.Setter;
 
@@ -11,10 +12,10 @@ import javax.persistence.*;
 @Getter @Setter
 @Entity
 
-public class Experiencia {
+public class Experiencia implements Serializable {
     
-    @id
-@TableColumn
+   @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     
      private long Id_Experiencia;
     private String Fechas; 

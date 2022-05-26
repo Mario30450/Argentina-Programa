@@ -4,7 +4,7 @@
  */
 package com.porfolioArgProg.SpringBoot.Service;
 
-import Service.*;
+import org.hibernate.service.Service.*;
 
 /**
  *
