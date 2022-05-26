@@ -5,13 +5,13 @@ package com.porfolioArgProg.SpringBoot.Model;
 import lombok.Getter;
 import lombok.Setter;
 
-
+import javax.persistence.*;
 @Getter @Setter
 @Entity
-@id
-@TableColumn
+
 public class HardySoft_skills {
-    
+    @id
+@TableColumn
      private long Id_HardySoft_skills;
     private String Fechas; 
     private String Descripcion ; 

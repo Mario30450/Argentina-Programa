@@ -3,15 +3,15 @@ package com.porfolioArgProg.SpringBoot.Model;
 
 import lombok.Getter;
 import lombok.Setter;
-
+import javax.persistence.*;
 
 @Getter @Setter
 @Entity
-@id
-@TableColumn
+
 public class Educacion {
     
-
+@id
+@TableColumn
     
     private long Id_Educacion;
     private String Fecha; 

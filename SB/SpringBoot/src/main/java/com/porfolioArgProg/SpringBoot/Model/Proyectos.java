@@ -5,13 +5,15 @@ package com.porfolioArgProg.SpringBoot.Model;
 import lombok.Getter;
 import lombok.Setter;
 
+import javax.persistence.*;
+
 @Getter @Setter
 @Entity
-@id
-@TableColumn
+
 public class Proyectos {
     
-    
+    @id
+@TableColumn
     private long Id_Proyectos;
     private String nombre; 
      private String Fechas; 

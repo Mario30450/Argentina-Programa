@@ -3,12 +3,15 @@ package com.porfolioArgProg.SpringBoot.Model;
 
 import lombok.Getter;
 import lombok.Setter;
+import javax.persistence.*;
+
 
 @Getter @Setter
 @Entity
 public class Persona {
     
-    
+     @Id
+    @GeneratedValue(strategy = GenerationType.AUTO)
     private long id_Perfil;
     private String nombre; 
     private String apellido; 
